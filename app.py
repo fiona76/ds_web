@@ -12,7 +12,9 @@ def main():
 
     import vtk
 
-    server = get_server(client_type="vue2")
+
+    server = get_server()
+    main
     state, ctrl = server.state, server.controller
 
     state.file_path = ""
